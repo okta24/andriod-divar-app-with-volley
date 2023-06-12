@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="right"
+    android:padding="10dp"
+    tools:context=".fragments.FourFragment">
+
+    <Button
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:gravity="right|center"
+        android:id="@+id/btn_exit"
+        android:drawableRight="@drawable/ic_login"
+        android:layout_height="wrap_content"
+        android:text="خروج"/>
+
+
+
+    <Button
+           android:layout_width="match_parent"
+           android:gravity="right|center"
+           android:id="@+id/btn_myadv"
+           android:background="@android:color/white"
+           android:drawableRight="@drawable/ic_adv"
+           android:layout_height="wrap_content"
+        android:visibility="gone"
+           android:text="آگهی من"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:gravity="right|center"
+        android:id="@+id/btn_city"
+        android:drawableRight="@drawable/ic_loc2"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:text="شهر"/>
+
+    <Button
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:gravity="right|center"
+        android:id="@+id/btn_about"
+        android:drawableRight="@drawable/ic_info"
+        android:layout_height="wrap_content"
+        android:text=" درباره ما"/>
+
+</LinearLayout>

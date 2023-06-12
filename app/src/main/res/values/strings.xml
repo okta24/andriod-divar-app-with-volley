@@ -1,0 +1,27 @@
+<resources>
+    <string name="darbareh">به نام خدا
+    \n
+        در این برنامه سعی شده تا نمونه ای ساده از اپلیکیشن دیوار پیاده سازی شود
+    </string>
+    <string name="app_name">نیازمندی های روز</string>
+    <string name="exit">برای خروج یک بار دیگر فشار دهید</string>
+
+    <string name="phonehint">0912345679</string>
+    <string name="kharid">خرید</string>
+    <string name="save">ذخیره سازی</string>
+    <string name="update">ثبت بروزرسانی</string>
+    <string name="txtupdate">بروزرسانی انجام شد</string>
+
+    <string name="takephoto">دوربین</string>
+    <string name="gallerry">گالری</string>
+    <string name="delete">حذف</string>
+    <string name="sure">آیا قصد حذف این آگهی را دارید؟</string>
+    <string name="cancel">نه، منصرف شدم!</string>
+    <string name="ok2">بله، حذفش کن!</string>
+    <string name="deled">حذف شد!</string>
+    <string name="ok">بستن</string>
+    <string name="image">انتخاب تصویر</string>
+
+    <string name="drawer_open">منو باز</string>
+    <string name="drawer_close">منو بسته</string>
+</resources>

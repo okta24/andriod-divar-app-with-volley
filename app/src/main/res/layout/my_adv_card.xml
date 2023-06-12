@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="1dp"
+        android:background="@color/light_gray"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:background="#ff23ff"
+            android:id="@+id/adv_img5"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitXY"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/inf"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:background="#ffffff"
+            android:padding="2dp"
+            android:orientation="vertical"
+            android:layout_weight="1" >
+            <TextView
+                android:textSize="22dp"
+                android:textColor="#555"
+                android:id="@+id/txt_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginBottom="35dp"
+                android:text="title"/>
+            <TextView
+                android:textSize="14dp"
+                android:textColor="#969494"
+                android:id="@+id/txt_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginTop="5dp"
+                android:text="title"/>
+            <TextView
+                android:textSize="14dp"
+                android:textColor="#969494"
+                android:id="@+id/txt_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="right"
+                android:text="title"/>
+            <TextView
+                android:textSize="14dp"
+                android:textColor="#969494"
+                android:id="@+id/txt_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="right"
+                android:text="title"/>
+            <TextView
+                android:textSize="14dp"
+                android:textColor="#969494"
+                android:id="@+id/txt_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="right"
+                android:text="title"/>
+            <TextView
+                android:textSize="14dp"
+                android:textColor="#969494"
+                android:id="@+id/txt_cat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="right"
+                android:text="title"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@android:color/background_dark"
+            android:id="@+id/btn_edit"
+            android:drawableRight="@drawable/ic_edit"
+            android:text="ویرایش آگهی"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/submit_btn"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@android:color/background_dark"
+            android:id="@+id/btn_del_adv"
+            android:drawableRight="@drawable/ic_del"
+            android:text="حذف آگهی"
+            android:layout_weight="1"
+            android:background="@drawable/submit_btn"
+            />
+    </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

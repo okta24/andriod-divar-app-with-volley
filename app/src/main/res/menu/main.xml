@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_city"
+            android:icon="@drawable/ic_loc2"
+            android:title="انتخاب شهر" />
+        <item
+
+            android:id="@+id/my_adv"
+            android:icon="@drawable/ic_adv"
+            android:title="آگهی های من" />
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_action_search"
+            android:title="جستجو" />
+        <item
+            android:id="@+id/category"
+            android:icon="@drawable/ic_list"
+            android:title="دسته بندی ها" />
+    </group>
+
+    <item android:title="سایر">
+        <menu>
+            <item
+                android:id="@+id/favorite"
+                android:icon="@drawable/ic_fav2"
+                android:title="نشان شده ها" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_info"
+                android:title="درباره ما" />
+        </menu>
+    </item>
+
+</menu>

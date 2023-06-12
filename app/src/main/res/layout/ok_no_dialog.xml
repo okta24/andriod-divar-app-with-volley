@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/oval"
+    android:gravity="center_vertical|center_horizontal">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/txttitle"
+        android:gravity="center_vertical|center|center_horizontal"
+        android:background="#00e2cfcf"
+        android:textColor="#292828"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/txtcontent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center|center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textColor="#7e7c7c"
+        android:layout_marginBottom="5dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/rectgray"
+        android:id="@+id/btnclose"
+        android:layout_marginRight="20dp"
+        android:text="بستن"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffff" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/redbutton"
+        android:id="@+id/btn_ok"
+        android:text="تایید"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffff" />
+
+
+</LinearLayout>
+
+</LinearLayout>
